@@ -1,75 +1,97 @@
-# 🌐 Pravalika Portfolio Website
+# 📚 BookBridge Connect Community
 
-Welcome to my personal portfolio website!
-This project showcases my work as a **Content Writer & Promotions Specialist**, highlighting my skills, services, and achievements.
-
----
-
-## ✨ About the Project
-
-This is a responsive and modern portfolio website designed to present my expertise in:
-
-* Content Writing
-* Copywriting
-* SEO Optimization
-* Campaign Strategy
-* Multimedia Promotions
-
-The goal of this portfolio is to demonstrate my ability to create **engaging content, impactful campaigns, and result-driven strategies**.
+A modern web platform that connects readers through book sharing, discussions, and community engagement. Built with a focus on usability, scalability, and clean UI, this project enables users to explore books, interact with fellow readers, and foster a collaborative reading ecosystem.
 
 ---
 
-## 🚀 Live Website
+## 🚀 Live Demo
 
-👉 https://j-pravalika.github.io/Portfolio/
-
----
-
-## 🛠️ Technologies Used
-
-* HTML5
-* CSS3
-* JavaScript
+🔗 https://bookbridge-connect-community.vercel.app
 
 ---
 
-## 📂 Features
+## 🛠️ Tech Stack
 
-* Clean and modern UI design
-* Fully responsive layout
-* Portfolio showcase section
-* Services and achievements display
-* Contact form integration
-
----
-
-## 📸 Sections Included
-
-* Home
-* About Me
-* Services
-* Portfolio
-* Achievements
-* Contact
+* **Frontend:** React (Vite), TypeScript
+* **Styling:** Tailwind CSS, shadcn/ui
+* **Backend & Database:** Supabase
+* **Deployment:** Vercel
 
 ---
 
-## 🎯 Purpose
+## ✨ Features
 
-This project serves as:
-
-* My personal brand website
-* A showcase of my writing and promotional skills
-* A platform to connect with clients and collaborators
-
----
-
-## 📬 Contact
-
-📧 Email: [pravalika081205@gmail.com](mailto:pravalika081205@gmail.com)
-🔗 LinkedIn: (Add your LinkedIn profile link here)
+* 🔐 User Authentication (via Supabase)
+* 📚 Browse and explore books
+* 👥 Community interaction and engagement
+* 🖥️ Responsive and modern UI
+* ⚡ Fast performance using Vite
+* 🎨 Clean and reusable component architecture
 
 ---
 
+## 📂 Project Structure
 
-© 2025 Pravalika | All Rights Reserved
+```
+bookbridge-connect-community/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── integrations/
+│   ├── lib/
+│   └── main.tsx
+│── public/
+│── supabase/
+│── package.json
+│── vite.config.ts
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/J-Pravalika/bookbridge-connect-community.git
+
+# Navigate to project folder
+cd bookbridge-connect-community
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **Vercel**.
+Any push to the `main` branch automatically triggers a new deployment.
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots of your project UI here for better presentation)*
+
+---
+
+## 💡 Future Enhancements
+
+* 📖 Book recommendation system
+* 💬 Real-time chat/discussion features
+* ⭐ User reviews and ratings
+* 🔍 Advanced search and filters
+* 📱 Mobile app version
+
+---
+
+
+
+If you like this project, give it a ⭐ on GitHub!
